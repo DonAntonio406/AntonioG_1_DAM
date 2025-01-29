@@ -1,0 +1,23 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Patente</title>
+</head>
+<body>
+
+<h2>Formulario de Patente</h2>
+<form>
+    <label for="patente">Patente del automóvil:</label>
+    <input 
+        type="text" 
+        id="patente" 
+        name="patente" 
+        placeholder="AAA123" 
+        pattern="[A-Za-z]{3}[0-9]{3}" 
+        title="Debe ingresar tres letras seguidas de tres números. Ejemplo: ABC123" 
+        required>
+    <br><br>
+    <button type="submit">Enviar</button>
+</form>
+</html>

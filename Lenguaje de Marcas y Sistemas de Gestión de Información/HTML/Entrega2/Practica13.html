@@ -1,0 +1,27 @@
+<html>
+ <h2>Ingresar Navegador y Seleccionar Periódico</h2>
+
+<form id="userForm">
+<label for="navegador">Ingrese el nombre del navegador que utiliza:</label>
+<input type="text" id="navegador" name="navegador" list="listaNavegadores" placeholder="Seleccione o escriba su navegador" required>
+<datalist id="listaNavegadores">
+<option value="Google Chrome"></option>
+<option value="Mozilla Firefox"></option>
+<option value="Microsoft Edge"></option>
+<option value="Safari"></option>
+<option value="Opera"></option>
+</datalist>
+<br><br>
+<label for="periodico">Seleccione un periodico:</label>
+<select id="periodico" name="periodico" required>
+<option value="" disabled selected>Seleccione un periodico</option>
+<option value="El Pais">El Pais</option>
+<option value="El Mundo">El Mundo</option>
+<option value="Mundo Deportivo">Mundo Deportivo</option>
+<option value="Sport">Sport</option>
+<option value="Diario As">Diario As</option>
+</select>
+<br><br>
+<button type="submit">Enviar</button>
+</form>
+</html>
